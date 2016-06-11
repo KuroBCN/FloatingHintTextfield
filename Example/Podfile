@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FloatingHintTextField_Example' do
+  pod 'FloatingHintTextField', :path => '../'
+
+  target 'FloatingHintTextField_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
