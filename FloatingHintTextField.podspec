@@ -22,7 +22,7 @@ s.description      = "This pod is another iOS implementation of the Android edit
   s.homepage         = 'https://github.com/KuroBCN/FloatingHintTextField'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Pereiro, Delfin' => 'delfin.pereiro@rakuten.com' }
+  s.author           = { 'Pereiro, Delfin' => '' }
   s.source           = { :git => 'https://github.com/KuroBCN/FloatingHintTextField.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
