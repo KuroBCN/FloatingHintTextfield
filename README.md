@@ -22,7 +22,7 @@ pod "FloatingHintTextField"
 
 ## Author
 
-Pereiro, Delfin, delfin.pereiro@rakuten.com
+Pereiro, Delfin
 
 ## License
 
