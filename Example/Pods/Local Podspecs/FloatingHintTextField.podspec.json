@@ -1,0 +1,22 @@
+{
+  "name": "FloatingHintTextField",
+  "version": "0.1.0",
+  "summary": "A short description of FloatingHintTextField.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/FloatingHintTextField",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Pereiro, Delfin": "delfin.pereiro@rakuten.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/FloatingHintTextField.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FloatingHintTextField/Classes/**/*"
+}

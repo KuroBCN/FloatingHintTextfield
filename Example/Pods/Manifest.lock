@@ -1,0 +1,16 @@
+PODS:
+  - FloatingHintTextField (0.1.0)
+
+DEPENDENCIES:
+  - FloatingHintTextField (from `../`)
+
+EXTERNAL SOURCES:
+  FloatingHintTextField:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FloatingHintTextField: b6fa5be3624cda77d17c32caf1f64be6af70556d
+
+PODFILE CHECKSUM: 89e58aa87d20c7317325fdb8ae19f924bf483d02
+
+COCOAPODS: 1.0.1

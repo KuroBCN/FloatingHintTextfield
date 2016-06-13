@@ -1,0 +1,6 @@
+framework module FloatingHintTextField {
+  umbrella header "FloatingHintTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

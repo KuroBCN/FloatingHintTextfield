@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import FloatingHintTextField
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var floatingHintTextView: FloatingHintTextField!
+    @IBOutlet weak var mNormalTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+//        floatingHintTextView.placeholderColor = UIColor.redColor()
     }
 
     override func didReceiveMemoryWarning() {
