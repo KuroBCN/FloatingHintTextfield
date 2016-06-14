@@ -14,9 +14,8 @@ let kDefaultFloatingScale : CGFloat = 0.7
 public class FloatingHintTextField: UITextField {
 
     private var floatingLabel = CATextLayer()
-    
     public var floatingLabelColor : UIColor?
-    public var placeholderColor = UIColor.blackColor()
+    public var placeholderColor = UIColor.init(red: 0, green: 0, blue: 0.0980392, alpha: 0.22)
     public var animationDuration = kAnimationTimeInterval
     public var floatingLabelFont : UIFont? {
         didSet{
@@ -49,30 +48,46 @@ public class FloatingHintTextField: UITextField {
             super.placeholder = nil
         }
     }
+    
+    override public var frame: CGRect {
+        didSet {
+            super.frame = frame
+            self.commonInit()
+        }
+    }
+    
+    public convenience init(){
+        self.init(frame: CGRectZero)
+    }
 
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.commonInit()
     }
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         self.commonInit()
     }
+    
     
 //    MARK:  - Private methods
     private func commonInit() {
 
         // Get original placeholder color
-        var range = NSMakeRange(0, 1)
-        let color = super.attributedPlaceholder?.attribute(NSForegroundColorAttributeName, atIndex: 0, effectiveRange: &range) as! UIColor
-        placeholderColor = color
+        var range = NSMakeRange(0, 0)        
+        let color = super.attributedPlaceholder?.attribute(NSForegroundColorAttributeName, atIndex: 0, effectiveRange: &range)
+        if let color = color as? UIColor {
+            placeholderColor = color
+        }
         
         // Set floating text string and removes real placeholder
         placeholder = super.placeholder
         
         // calculate top inset
-        topInset = floor(super.editingRectForBounds(self.bounds).height-self.font!.lineHeight)
+        if self.font != nil {
+            topInset = floor(super.editingRectForBounds(self.bounds).height-self.font!.lineHeight)
+        }
         editingTextBounds = editingRectForBounds(self.bounds)
         
         // Position floating label
