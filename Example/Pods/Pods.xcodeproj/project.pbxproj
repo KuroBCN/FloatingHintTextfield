@@ -13,7 +13,6 @@
 		404721D2A6FE8CA3D9B7B2D50E627D48 /* Pods-FloatingHintTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD3731538D78C07B6B0CE785554C73C /* Pods-FloatingHintTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		486B909D41FE974757144FAE994C290D /* FloatingHintTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E86517E96A23650DFA7A7CEB239DCE /* FloatingHintTextField-dummy.m */; };
 		7B0A2515DD542FED2F5495B907C2137F /* Pods-FloatingHintTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 161434DD1EE28CAC863BFF40C169BB86 /* Pods-FloatingHintTextField_Example-dummy.m */; };
-		84CB13BA6848BAD17A2BB18E8E75B295 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6892844844EA8BF5ACDAFD6AD88169E8 /* ReplaceMe.swift */; };
 		893B6499AE9BCE32AB53399A79EE82DC /* FloatingHintTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C4BB664A6A86D6100E5D7E37BC0F24 /* FloatingHintTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E52A92A8C0F7C14CD82E01359B635778 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		ED099A12C6C40138E58D74D8CA29B6DB /* Pods-FloatingHintTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 877DB4635035ED718A57C4B5190E4DAF /* Pods-FloatingHintTextField_Tests-dummy.m */; };
@@ -41,7 +40,6 @@
 		316FEBFDC93DC5CD9A16AE8706B4D28F /* Pods-FloatingHintTextField_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FloatingHintTextField_Tests-resources.sh"; sourceTree = "<group>"; };
 		37E8EFC21D0C590100B147E4 /* FloatingHintTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingHintTextField.swift; sourceTree = "<group>"; };
 		3F30F302008FBC93C53AEFA3890D76D2 /* FloatingHintTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FloatingHintTextField.xcconfig; sourceTree = "<group>"; };
-		6892844844EA8BF5ACDAFD6AD88169E8 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		69C4BB664A6A86D6100E5D7E37BC0F24 /* FloatingHintTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FloatingHintTextField-umbrella.h"; sourceTree = "<group>"; };
 		70030F0B81608E197D959C5C66A5B045 /* Pods-FloatingHintTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FloatingHintTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		77E86517E96A23650DFA7A7CEB239DCE /* FloatingHintTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FloatingHintTextField-dummy.m"; sourceTree = "<group>"; };
@@ -108,7 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				37E8EFC21D0C590100B147E4 /* FloatingHintTextField.swift */,
-				6892844844EA8BF5ACDAFD6AD88169E8 /* ReplaceMe.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -341,7 +338,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				486B909D41FE974757144FAE994C290D /* FloatingHintTextField-dummy.m in Sources */,
-				84CB13BA6848BAD17A2BB18E8E75B295 /* ReplaceMe.swift in Sources */,
 				37E8EFC31D0C590100B147E4 /* FloatingHintTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
