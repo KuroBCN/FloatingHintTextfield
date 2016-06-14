@@ -6,11 +6,16 @@
 [![Platform](https://img.shields.io/cocoapods/p/FloatingHintTextField.svg?style=flat)](http://cocoapods.org/pods/FloatingHintTextField)
 
 
+## Overview
+FloatingHintTextField is a subclass of UITextField, written in Swift, and another implementation of the UX pattern known as the "Float Label Pattern". It allows to keep the placeholder "label" even when 
+
 ## Requirements
 * ARC
 * iOS8
 
-## Installation with CocoaPods
+## Installation
+
+#### CocoaPods
 
 FloatingHintTextField is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -18,6 +23,10 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "FloatingHintTextField"
 ```
+
+#### Manual
+
+Simply download the latest files from the [Releases page](https://github.com/KuroBCN/FloatingHintTextfield/releases) and add the FloatingHintTextField.swift class to your project.
 
 ## Usage
 
