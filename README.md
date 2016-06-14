@@ -11,7 +11,7 @@ FloatingHintTextField is a subclass of UITextField, written in Swift, and anothe
 
 ## Requirements
 * ARC
-* iOS8
+* iOS 8.0 or higher
 
 ## Installation
 
