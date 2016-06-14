@@ -5,13 +5,12 @@
 [![License](https://img.shields.io/cocoapods/l/FloatingHintTextField.svg?style=flat)](http://cocoapods.org/pods/FloatingHintTextField)
 [![Platform](https://img.shields.io/cocoapods/p/FloatingHintTextField.svg?style=flat)](http://cocoapods.org/pods/FloatingHintTextField)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+* ARC
+* iOS8
 
-## Installation
+## Installation with CocoaPods
 
 FloatingHintTextField is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -20,9 +19,24 @@ it, simply add the following line to your Podfile:
 pod "FloatingHintTextField"
 ```
 
+## Usage
+
+```Swift
+import FloatingHintTextField
+
+let  floatingHintTextField = FloatingHintTextField.init(frame: CGRectMake(20,200, 200, 40))
+floatingHintTextField.placeholder = "Placeholder text"
+self.view.addSubview(floatingHintTextField)
+
+```
+
+## Example Project
+
+An example project is included with this repo.  To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
 ## Author
 
-Pereiro, Delfin
+Delfin Pereiro Parejo
 
 ## License
 
